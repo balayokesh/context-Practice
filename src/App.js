@@ -1,12 +1,10 @@
-import UserContextProvider from './Contexts/UserContext';
-import Children from './Components/Children';
+import Header from './Components/Header';
 
-function App() {
-  return (
-    <UserContextProvider>
-      <Children />
-    </UserContextProvider>
-  );
+export default function App() {
+	return (
+		<>
+			<Header />
+			<p>Hello World!</p>
+		</>
+	);
 }
-
-export default App;
